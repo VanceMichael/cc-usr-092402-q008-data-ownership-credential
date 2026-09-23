@@ -1,0 +1,14 @@
+{
+  "name": "data-credential",
+  "private": true,
+  "scripts": {
+    "start": "node src/main.js",
+    "migrate": "node src/migrate.js",
+    "test": "node --test",
+    "build": "node --check src/main.js"
+  },
+  "dependencies": {
+    "koa": "^2.15.3",
+    "better-sqlite3": "^11.0.0"
+  }
+}

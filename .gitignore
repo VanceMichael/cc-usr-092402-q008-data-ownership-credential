@@ -1,0 +1,13 @@
+.env
+.env.*
+node_modules/
+data/*.sqlite*
+
+*.key
+*.pem
+.venv/
+__pycache__/
+dist/
+*.sqlite
+*.sqlite3
+.DS_Store
